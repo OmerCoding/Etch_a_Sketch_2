@@ -1,0 +1,29 @@
+div {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0px;
+}
+
+#wrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  margin-left: 50%;
+  left: -300px;
+  top: 150px;
+}
+
+.untouched {
+  border: 2px solid green;
+  /*width: calc((100% / 16) - 2px); */
+  height: 50px;
+  float: left;
+}
